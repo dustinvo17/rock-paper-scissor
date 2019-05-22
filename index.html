@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rock-Paper-Scissor Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="game">
+            <div class="player display-none">
+                <div>
+                    <span class="name">Player</span>
+                    <div class="player-score">0</div>
+                </div>
+                <div>
+                <span class="boss">Boss</span>  
+                 <div class="boss-score">0</div>
+                </div>
+            </div>
+           
+            <div class="intro">
+                <div class="game-name">
+                    Rock - Paper - Scissor
+                </div>
+                 <div class="play-button">Play Game</div>
+            
+            </div>
+            
+            <div class="user-name">
+                <div>
+                    
+                    <label class="label" for="input"> Fill your name:</label>
+                    <input id="input" type="text" >
+                    <div class="submit">Ok</div>
+
+                </div>
+            </div>
+            <div class="winner">
+                &zwnj;
+                
+            </div>
+            <div class="rs-button">Restart</div>
+            <div class="choice display-none">
+                <img class="player-choice" src="image/rock.png">
+                <img class="computer-choice" src="image/rock.png">
+            </div>
+            <div class="options display-none">
+                <div>Rock</div>
+                <div>Paper</div>
+                <div>Scissor</div>
+            </div>
+
+        </section>
+        
+        <script src="index.js" async defer></script>
+    </body>
+</html>
